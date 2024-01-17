@@ -37,6 +37,11 @@
   </div>
 
   <div>
+    <%= form.label :phone, style: "display: block" %>
+    <%=h form.text_field :phone %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>
